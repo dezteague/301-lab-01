@@ -6,7 +6,6 @@ body {
 div {
     display: block;
     border: 1px dotted #000;
-    background: #888;
     box-sizing: border-box;
     text-align: center;
   }
@@ -15,12 +14,21 @@ div {
     width: 100%;
     height: 75px;
     line-height: 75px;
+    background-color: blueviolet;
 }
 
-#b, #c, #d {
+#b {
+    width: 100%;
+    height: 150px;
+    float: left;
+    background-color: brown;
+}
+
+#c, #d {
     width: 100%;
     height: 125px;
     line-height: 125px;
+    background-color: aquamarine
 }
 
 #section2{
@@ -31,15 +39,16 @@ div {
     height: 250px;
     line-height: 250px;
     float: left;
+    background-color: blue
 }
 
 #i {
     display: block;
     border: 1px dotted #000;
-    background: #888;
     box-sizing: border-box;
     width: 100%;
     height: 80px;
     line-height: 80px;
     float: left;
+    background-color: antiquewhite;
 }

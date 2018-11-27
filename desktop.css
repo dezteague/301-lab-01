@@ -2,6 +2,7 @@
     body {
         width: 960px;
         text-align: center;
+        margin: auto;
     }
 
     div {
@@ -15,6 +16,7 @@
         width: 960px;
         height: 100px;
         line-height: 100px;
+        background-color: plum;
     }
     
     #b {
@@ -22,12 +24,14 @@
         height: 600px;
         line-height: 600px;
         float: left;
+        background-color: palevioletred;
     }
     #c, #d {
         width: 380px;
         height: 200px;
         line-height: 200px;
         float: left;
+        background-color: palegreen;
     }
     
     #section2{
@@ -38,12 +42,14 @@
         height: 250px;
         line-height: 250px;
         float: left;
+        background-color: peachpuff;
     }
+
     
     #i {
     
         border: 1px dotted #000;
-        background: #888;
+        background-color: powderblue;
         width: 760px;
         height: 150px;
         line-height: 150px;
